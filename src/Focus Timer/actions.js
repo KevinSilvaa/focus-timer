@@ -2,11 +2,17 @@ import state from "./state.js"
 import * as timer from "./timer.js";
 import * as element from './elements.js';
 import * as sounds from './sounds.js';
+import { Modal } from "./modal.js";
 
 // *Função para ligar/desligar o timer
 export function toggleTimer() {
+    if (state.minutes <= 0) {
+        Modal.open();
+        return;
+    }
     state.isRunning = document.documentElement.classList.toggle('running');
     timer.countdown();
+
     sounds.buttonPressAudio.play();
 }
 

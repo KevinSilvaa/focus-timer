@@ -9,4 +9,3 @@ toggleButton.addEventListener('click', event => {
     event.currentTarget.querySelector('span').textContent = `${mode} mode ativado!`
     darkMode = !darkMode;
 })
-

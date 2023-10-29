@@ -3,6 +3,7 @@ import * as actions from './actions.js';
 import * as element from './elements.js';
 import state from "./state.js";
 import { updateDisplay } from "./timer.js";
+import { Modal } from "./modal.js";
 
 // *Registra se o botão que foi clicado existe no data-action
 export function registerControls() {
@@ -32,3 +33,5 @@ export function setMinutes() {
         element.minutes.removeAttribute('contenteditable');
     })
 }
+
+element.closeButton.addEventListener('click', () =>  Modal.close());

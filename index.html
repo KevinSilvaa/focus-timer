@@ -7,10 +7,19 @@
     <title>Focus Timer</title>
     <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-svg">
     <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://kit.fontawesome.com/1d73e04100.js" crossorigin="anonymous"></script>
     <script src="./src/main.js" type="module" defer></script>
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 <body>
+    <div class="modal-wrapper hidden">
+        <div class="modal">
+            <p class="modal-texto">Digite algum tempo em minutos para iniciar o timer</p>
+            <button class="modal-button">
+                <i class="fa-solid fa-xmark" style="color: #ffffff;"></i>
+            </button>
+        </div>
+    </div>
     <section class="container-timer">
         <button id="toggle-mode">
             <span class="sr-only">Ativar Light Mode</span>
@@ -45,7 +54,7 @@
             </button>
         </div>
     </section>
-    
+
 </body>
 
 </html>
