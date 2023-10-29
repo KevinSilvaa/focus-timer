@@ -5,8 +5,8 @@ Este projeto de timer serve para ser usado em múltiplas funções do dia a dia 
 ## Dark e Light Mode
 
 <div align="center">
-  <img src="https://github.com/KevinSilvaa/focus-timer/assets/143517496/cc865a58-2edd-475d-8a6b-649c6cfb33e0" alt="Focus Timer Dark Mode" width="370" height="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/KevinSilvaa/focus-timer/assets/143517496/cd6c0927-dce7-444e-82a5-753e3188dcda" alt="Focus Timer Light Mode" width="370" height="200">
+  <img src="https://github.com/KevinSilvaa/focus-timer/assets/143517496/cc865a58-2edd-475d-8a6b-649c6cfb33e0" alt="Focus Timer Dark Mode" width="390" height="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/KevinSilvaa/focus-timer/assets/143517496/cd6c0927-dce7-444e-82a5-753e3188dcda" alt="Focus Timer Light Mode" width="390" height="200">
 </div>
 
 ## 🔨 Objetivos do projeto
